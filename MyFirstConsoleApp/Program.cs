@@ -26,6 +26,9 @@ namespace MyFirstConsoleApp
             num2 = Convert.ToInt32(Console.ReadLine());
             sum = num2 + num1;
             Console.WriteLine("The sum is: " + sum + ". Thank you..");
+            Console.WriteLine("Whats the date of your birth?");
+            Console.WriteLine("You born on " + Console.ReadLine() + ". Nice to know that.");
+
 
             Console.ReadKey();
         }
